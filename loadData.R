@@ -1,6 +1,5 @@
 # Load dataset
 
-
 date_time <- function(date, time) {
         return (strptime(paste(date, time), "%d/%m/%Y %H:%M:%S"))
 }
